@@ -37,8 +37,8 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 from hashlib import sha256
 from io import StringIO
-from time import sleep, time
-from functools import reduce
+    from time import sleep, time
+    from functools import reduce
 
 import six
 from bigquery.errors import (BigQueryTimeoutException, JobExecutingException,
